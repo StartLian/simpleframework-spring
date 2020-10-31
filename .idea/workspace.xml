@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="386d7018-e35a-4c58-b59f-854d7480f363" name="Default Changelist" comment="" />
+    <list default="true" id="386d7018-e35a-4c58-b59f-854d7480f363" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jessica/controller/demo/anntation/AnnotationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jessica/controller/demo/anntation/AnnotationParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jessica/controller/demo/anntation/CourseInfoAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jessica/controller/demo/anntation/ImoocCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jessica/controller/demo/anntation/PersonInfoAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jessica/controller/demo/anntation/TestAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jessica/controller/demo/reflect/FieldConllector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jessica/controller/demo/reflect/MethodConllector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jessica/controller/demo/reflect/ReflectTargetOrigin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jessica/demo/pattern/singleton/EnumStarvingSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jessica/demo/pattern/singleton/LazyDoubleCkeckSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jessica/demo/pattern/singleton/SingtelonDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jessica/demo/pattern/singleton/StarvingSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/simpframework/core/annotation/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/simpframework/core/annotation/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/simpframework/core/annotation/Repossitory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/simpframework/core/annotation/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/simpframework/util/ClassUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/simpleframework/util/ClassUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jessica/controller/demo/reflect/ConsrtuctorConllector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jessica/controller/demo/reflect/ConsrtuctorConllector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jessica/controller/demo/reflect/ReflectTarger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jessica/controller/demo/reflect/ReflectTarger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jessica/controller/demo/reflect/ConsrtuctorConllector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jessica/controller/demo/reflect/ConsrtuctorConllector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jessica/controller/demo/reflect/ReflectTarger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jessica/controller/demo/reflect/ReflectTarger.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,9 +52,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -44,6 +75,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1jKR9BeLqVi9nMTSuTEPdzDF09g" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -51,17 +85,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
-  <component name="RunManager" selected="Application.ConsrtuctorConllector">
-    <configuration name="ConsrtuctorConllector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jessica.controller.demo.reflect.ConsrtuctorConllector" />
+  <component name="RunManager" selected="Application.SingtelonDemo">
+    <configuration name="AnnotationParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jessica.controller.demo.anntation.AnnotationParser" />
       <module name="simpleframework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jessica.controller.demo.reflect.*" />
+          <option name="PATTERN" value="com.jessica.controller.demo.anntation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,15 +104,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectTarger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jessica.controller.demo.reflect.ReflectTarger" />
+    <configuration name="ClassUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.simpframework.util.ClassUtil" />
       <module name="simpleframework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jessica.controller.demo.reflect.*" />
+          <option name="PATTERN" value="org.simpframework.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingtelonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jessica.demo.pattern.singleton.SingtelonDemo" />
+      <module name="simpleframework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jessica.demo.pattern.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simpleframework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.simpleframework.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.simpleframework.util" />
+      <option name="MAIN_CLASS_NAME" value="org.simpleframework.util.ClassUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassUtilTest.extractPackageClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simpleframework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.simpleframework.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.simpleframework.util" />
+      <option name="MAIN_CLASS_NAME" value="org.simpleframework.util.ClassUtilTest" />
+      <option name="METHOD_NAME" value="extractPackageClassTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,10 +186,21 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.AnnotationParser" />
+      <item itemvalue="Maven.simpleframework [tomcat7:run]" />
+      <item itemvalue="Application.ClassUtil" />
+      <item itemvalue="JUnit.ClassUtilTest.extractPackageClassTest" />
+      <item itemvalue="JUnit.ClassUtilTest" />
+      <item itemvalue="Application.SingtelonDemo" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConsrtuctorConllector" />
-        <item itemvalue="Application.ReflectTarger" />
+        <item itemvalue="Application.SingtelonDemo" />
+        <item itemvalue="JUnit.ClassUtilTest" />
+        <item itemvalue="JUnit.ClassUtilTest.extractPackageClassTest" />
+        <item itemvalue="Application.ClassUtil" />
+        <item itemvalue="Application.AnnotationParser" />
       </list>
     </recent_temporary>
   </component>
@@ -139,6 +229,8 @@
       <workItem from="1603550646270" duration="6207000" />
       <workItem from="1603609691501" duration="2804000" />
       <workItem from="1603617152598" duration="9675000" />
+      <workItem from="1604060983066" duration="9810000" />
+      <workItem from="1604136709460" duration="11069000" />
     </task>
     <servers />
   </component>
@@ -150,53 +242,124 @@
       <screen x="-2560" y="93" width="2560" height="1400" />
     </state>
     <state x="-1688" y="455" key="#Inspections/0.0.1536.824/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1603617471615" />
-    <state x="-1826" y="451" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603552805706">
+    <state x="-1826" y="451" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604136870560">
       <screen x="-2560" y="93" width="2560" height="1400" />
     </state>
-    <state x="-1826" y="451" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1603552805706" />
-    <state x="-1475" y="502" key="#com.intellij.ide.util.MemberChooser" timestamp="1603627158186">
+    <state x="-1826" y="451" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1604136870560" />
+    <state x="-1826" y="451" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1604074081723" />
+    <state x="-2468" y="185" width="2376" height="1216" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1604157939768">
       <screen x="-2560" y="93" width="2560" height="1400" />
     </state>
-    <state x="-1475" y="502" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1603627158186" />
-    <state x="-1692" y="721" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1603629546818">
+    <state x="-2468" y="185" width="2376" height="1216" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1604157939768" />
+    <state x="-1475" y="502" key="#com.intellij.ide.util.MemberChooser" timestamp="1604062230021">
+      <screen x="-2560" y="93" width="2560" height="1400" />
+    </state>
+    <state x="-1475" y="502" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1604062230021" />
+    <state x="-1692" y="721" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604149982464">
       <screen x="-2560" y="93" width="2560" height="1400" />
     </state>
     <state x="-1692" y="721" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1603629546818" />
+    <state x="-1692" y="721" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1604149982464" />
+    <state x="-1369" y="705" key="#xdebugger.evaluate" timestamp="1604152488485">
+      <screen x="-2560" y="93" width="2560" height="1400" />
+    </state>
+    <state x="-1369" y="705" key="#xdebugger.evaluate/0.0.1920.1040/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1604152488485" />
+    <state width="430" height="466" key="DebuggerActiveHint" timestamp="1604159442461">
+      <screen x="-2560" y="93" width="2560" height="1400" />
+    </state>
+    <state width="430" height="466" key="DebuggerActiveHint/0.0.1920.1040/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1604159442461" />
     <state x="-1500" y="551" key="FileChooserDialogImpl" timestamp="1603555304896">
       <screen x="-2560" y="93" width="2560" height="1400" />
     </state>
     <state x="-1500" y="551" key="FileChooserDialogImpl/0.0.1536.824/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1603555304896" />
-    <state width="1258" height="401" key="GridCell.Tab.0.bottom" timestamp="1603637373944">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1604162177868">
       <screen x="-2560" y="93" width="2560" height="1400" />
     </state>
-    <state width="1258" height="401" key="GridCell.Tab.0.bottom/0.0.1536.824/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1603637373944" />
-    <state width="1258" height="401" key="GridCell.Tab.0.center" timestamp="1603637373944">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.1536.824/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1604062057282" />
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.1920.1040/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1604162177868" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1604162177867">
       <screen x="-2560" y="93" width="2560" height="1400" />
     </state>
-    <state width="1258" height="401" key="GridCell.Tab.0.center/0.0.1536.824/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1603637373944" />
-    <state width="1258" height="401" key="GridCell.Tab.0.left" timestamp="1603637373944">
+    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.1536.824/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1604062057282" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.1920.1040/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1604162177867" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1604162177867">
       <screen x="-2560" y="93" width="2560" height="1400" />
     </state>
-    <state width="1258" height="401" key="GridCell.Tab.0.left/0.0.1536.824/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1603637373944" />
-    <state width="1258" height="401" key="GridCell.Tab.0.right" timestamp="1603637373944">
+    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.1536.824/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1604062057282" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.1920.1040/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1604162177867" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1604162177867">
       <screen x="-2560" y="93" width="2560" height="1400" />
     </state>
-    <state width="1258" height="401" key="GridCell.Tab.0.right/0.0.1536.824/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1603637373944" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.1536.824/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1604062057282" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.1920.1040/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1604162177867" />
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1604162177857">
+      <screen x="-2560" y="93" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom/0.0.1920.1040/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1604162177857" />
+    <state width="2517" height="492" key="GridCell.Tab.1.center" timestamp="1604162177857">
+      <screen x="-2560" y="93" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.center/0.0.1920.1040/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1604162177857" />
+    <state width="2517" height="492" key="GridCell.Tab.1.left" timestamp="1604162177857">
+      <screen x="-2560" y="93" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.left/0.0.1920.1040/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1604162177857" />
+    <state width="2517" height="492" key="GridCell.Tab.1.right" timestamp="1604162177857">
+      <screen x="-2560" y="93" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.1920.1040/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1604162177857" />
     <state x="-2319" y="482" key="SettingsEditor" timestamp="1603628723167">
       <screen x="-2560" y="93" width="2560" height="1400" />
     </state>
     <state x="-2319" y="482" key="SettingsEditor/0.0.1536.824/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1603628723167" />
-    <state x="-1588" y="621" key="com.intellij.ide.util.TipDialog" timestamp="1603617175126">
+    <state x="-1588" y="621" key="com.intellij.ide.util.TipDialog" timestamp="1604136712618">
       <screen x="-2560" y="93" width="2560" height="1400" />
     </state>
-    <state x="-1588" y="621" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1603617175126" />
+    <state x="-1588" y="621" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1604136712618" />
     <state x="-1906" y="501" key="new project wizard" timestamp="1603555112358">
       <screen x="-2560" y="93" width="2560" height="1400" />
     </state>
     <state x="-1906" y="501" key="new project wizard/0.0.1536.824/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1603555112358" />
-    <state x="-1617" y="408" width="672" height="678" key="search.everywhere.popup" timestamp="1603635245904">
+    <state x="-1617" y="408" width="672" height="678" key="search.everywhere.popup" timestamp="1604072311257">
       <screen x="-2560" y="93" width="2560" height="1400" />
     </state>
-    <state x="-1617" y="408" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1603635245904" />
+    <state x="-1617" y="408" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1604061121091" />
+    <state x="-1617" y="408" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-2560.93.2560.1400@-2560.93.2560.1400" timestamp="1604072311257" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/simpframework/util/ClassUtil.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/simpframework/util/ClassUtil.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/simpframework/util/ClassUtil.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/simpleframework/util/ClassUtilTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/simpframework/util/ClassUtil.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/simpframework/util/ClassUtil.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

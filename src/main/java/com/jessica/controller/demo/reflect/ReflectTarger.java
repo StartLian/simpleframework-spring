@@ -1,9 +1,13 @@
 package com.jessica.controller.demo.reflect;
 
+import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 
+import java.lang.annotation.Annotation;
+
 @Slf4j
-public class ReflectTarger {
+@Data
+public class ReflectTarger extends  ReflectTargetOrigin{
     public ReflectTarger(String str){
         log.info("有参函数："+str);
     }
@@ -15,6 +19,40 @@ public class ReflectTarger {
     }
     private ReflectTarger(boolean str){
         log.info("siyou有参函数："+str);
+    }
+    private ReflectTarger(int i){
+        log.info("有参函数：int:"+i);
+    }
+    //----------------构造函数--------
+
+    //-----------------字段变量---------------/
+    public  String name;
+    protected  int index;
+    char type;
+    private  String targetinfo;
+
+    @Override
+    public String toString() {
+        return "ReflectTarger{" +
+                "name='" + name + '\'' +
+                ", index=" + index +
+                ", type=" + type +
+                ", targetinfo='" + targetinfo + '\'' +
+                '}';
+    }
+
+    public void  show1(String s){
+        log.info("public s:"+s);
+    }
+    protected  void show2(){
+        log.info("protected:");
+    }
+      void show3(){
+        log.info("default:");
+    }
+    private String show4(int index){
+        log.info("private index:"+index);
+        return  "show4";
     }
     public static void main(String[] args) throws ClassNotFoundException {
 
